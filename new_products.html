@@ -1,19 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Boostrap Dashboard</title>
 </head>
+
 <body>
     <!-- *** DOWN BAR*** -->
-    <header> 
+    <header>
         <nav class="navbar navbar-expand-lg bg-dark d-sm-block d-md-none " data-bs-theme="dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Boostrap Dashboard</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="true"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse show" id="navbarTogglerDemo02">
@@ -44,68 +51,152 @@
                         <li class="nav-item">
                             <a class="nav-link " aria-current="page" href="#">Esci</a>
                         </li>
-                    </ul>    
+                    </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="d-flex">
+    <main class="d-flex overflow-auto">
         <!-- ***SIDE BAR + BONUS*** -->
         <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark d-sm-none d-md-block" style="width: 280px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-            <use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-5">Boostrap Dashboard</span>
+                <use xlink:href="#bootstrap"></use></svg>
+                <span class="fs-5">Boostrap Dashboard</span>
             </a>
             <hr>
             <ul class="nav nav-pills flex-column mb-auto">
-            <li class="nav-item">
-                <a href="#" class="nav-link text-white" aria-current="page">
-                <use xlink:href="#home"></use></svg>
-                <span><i class="fas fa-igloo pe-1"></i> Dashboard</span>
-                </a>
-            </li>
-            <li>
-                <a href="sponsorizations.html" class="nav-link text-white">
-                <use xlink:href="#speedometer2"></use></svg>
-                <span><i class="fas fa-chart-line pe-1"></i> Sponsorizations</span>
-                </a>
-            </li>
-            <li>
-                <a href="produtcts.html" class="nav-link text-white">
-                <use xlink:href="#table"></use></svg>
-                <span><i class="fas fa-box-archive pe-1"></i> Products</span>
-                </a>
-            </li>
-            <li>
-                <a href="new_products.html" class="nav-link active text-white">
-                <use xlink:href="#grid"></use></svg>
-                <span><i class="fas fa-plus pe-1"></i> New Products</span>
-                </a>
-            </li>
-            <li>
-                <a href="#" class="nav-link text-white">
-                <use xlink:href="#people-circle"></use></svg>
-                <span><i class="fab fa-mandalorian pe-1"></i> Customers</span>
-                </a>
-            </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-white" aria-current="page">
+                        <use xlink:href="#home"></use></svg>
+                        <span><i class="fas fa-igloo pe-1"></i> Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="sponsorizations.html" class="nav-link text-white">
+                        <use xlink:href="#speedometer2"></use></svg>
+                        <span><i class="fas fa-chart-line pe-1"></i> Sponsorizations</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="produtcts.html" class="nav-link text-white">
+                        <use xlink:href="#table"></use></svg>
+                        <span><i class="fas fa-box-archive pe-1"></i> Products</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="new_products.html" class="nav-link active text-white">
+                        <use xlink:href="#grid"></use></svg>
+                        <span><i class="fas fa-plus pe-1"></i> New Products</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-white">
+                        <use xlink:href="#people-circle"></use></svg>
+                        <span><i class="fab fa-mandalorian pe-1"></i> Customers</span>
+                    </a>
+                </li>
             </ul>
             <hr>
             <div class="ms-0 dropdown min-vh-100">
-                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
                     <strong>Mario Rossi</strong>
                 </a>
                 <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
                     <li><a class="dropdown-item" href="#">Settings</a></li>
                     <li><a class="dropdown-item" href="#">Profile</a></li>
-                    <li><hr class="dropdown-divider"></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
                     <li><a class="dropdown-item" href="#">Sign out</a></li>
                 </ul>
             </div>
         </div>
         <!-- ****FORM*** -->
-        <div class="container"></div>
+        <div class="container">
+            <div class="py-5 text-center">
+                <h2>Crea nuovo prodotto</h2>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod cumque accusantium, illum
+                    id error laboriosam odit dignissimos ex, necessitatibus quae non et quidem nisi, porro earum nam
+                    unde numquam modi!</p>
+            </div>
+            <div class="row flex-wrap flex-lg-nowrap">
+                <div class="col-lg-7 col-12">
+                    <div class="mb-3 d-flex">
+                        <label for="exampleFormControlInput1" class="form-label fw-bold w-50">Nome</label>
+                        <input type="text" class="form-control w-100" id="exampleFormControlInput1"
+                            placeholder="Samasung Galaxy 10">
+                    </div>
+                    <div class="mb-3 d-flex">
+                        <label for="exampleFormControlInput1" class="form-label fw-bold w-50">Prezzo</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="999&euro;">
+                    </div>
+                    <div class="mb-3 d-flex">
+                        <label for="exampleFormControlInput1" class="form-label fw-bold w-50">Marca</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>---Seleziona---</option>
+                            <option value="1">on fire</option>
+                            <option value="2">baby</option>
+                            <option value="3">:D</i></option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label"></label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1"
+                            placeholder="Inserisci un commento di massimo 1000 parole.." rows="4"></textarea>
+                    </div>
+                    <div class="input-group mb-3">
+                        <input type="file" class="form-control" id="inputGroupFile02">
+                        <label class="input-group-text" for="inputGroupFile02">Immagine</label>
+                    </div>
+                    <form>
+                        <input class="btn btn-primary" type="submit" value="Salva">
+                    </form>
+                </div>
+                <div class="col-lg-5 col-12 mt-5 m-lg-0">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                            <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                            <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                            <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                            <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                            <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+                        </li>
+                        <li class="list-group-item">
+                            <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                            <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
