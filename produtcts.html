@@ -8,6 +8,7 @@
     <title>Boostrap Dashboard</title>
 </head>
 <body>
+    <!-- *** DOWN BAR*** -->
     <header> 
         <nav class="navbar navbar-expand-lg bg-dark d-sm-block d-md-none " data-bs-theme="dark">
             <div class="container-fluid">
@@ -48,8 +49,9 @@
             </div>
         </nav>
     </header>
-    <main class="d-flex">
-        <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark d-sm-none d-md-block" style="width: 280px;">
+    <main class="d-flex" >
+        <!-- ****SIDE-BAR + BONUS**** -->
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark d-none d-md-block overflow-hidden" style="width: 280px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
             <use xlink:href="#bootstrap"></use></svg>
             <span class="fs-5">Boostrap Dashboard</span>
@@ -88,7 +90,7 @@
             </li>
             </ul>
             <hr>
-            <div class="ms-0 dropdown min-vh-100">
+            <div class="ms-0 dropdown">
                 <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
                     <strong>Mario Rossi</strong>
@@ -101,7 +103,55 @@
                 </ul>
             </div>
         </div>
-        
+        <!-- ***TABELLA PRODOTTI + BONUS*** -->
+        <div class="container">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th colspan="" scope="col">
+                            <span class="fw-3"> 10 prodotti trovati per te</span>
+                        </th>
+                        <th colspan="3" scope="col">
+                            <button type="button" class="btn btn-outline-secondary mb-1">Esposta</button>
+                            <button type="button" class="btn btn-outline-secondary mb-1">Nuovo</button> 
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                        <td>@mdo</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                        <td>@fat</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Larry the Bird</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                        <td>@twitter</td>
+                    </tr>
+                </tbody>
+            </table>
+                        <!-- <div class="col-4 d-flex justify-content-end align-items-center">
+                            <span class="mx-4">799,90 &euro;</span>
+                            <button type="button" class="btn btn-outline-success mx-5"><i class="fas fa-check rounded-5"></i></button>
+                            <button type="button" class="btn btn-outline-primary"><i class="fas fa-pen-fancy"></i></button>
+                            <button type="button" class="btn btn-outline-danger"><i class="fas fa-trash border rounded-5"></i></button>
+                        </div> -->
+                    
+        </div>
+        <!-- <button type="button" class="btn btn-outline-secondary mb-1">Esposta</button>
+                <button type="button" class="btn btn-outline-secondary mb-1">Nuovo</button> -->
+            <!-- <img src="https://picsum.photos/50/50" alt=""> -->
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
